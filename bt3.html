@@ -4,12 +4,69 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        #title {
+            text-align: center;
+            color: white;
+            background-color: orangered;
+            font-size: 18px;
+        }
+        .right{
+            text-align: right;
+            color: blue;
+        }
+        .orange{
+            color: orangered;
+        }
+        form{
+            width: 400px;
+    height: 200px;
+        border: 1px solid white;
+        background-color: aqua;
+        }
+        table{
+            background-color: white;
+           
+    margin: 7px 30px 13px 20px;
+    background-color: white;
+        }
+    </style>
 </head>
 <body>
-    <form method="get" action="bt3.html"></form>
-    SỞ THÍCH CỦA BẠN
-    <br>Họ Và tên   <input name="yourname" type="text">
-    <br>Email <input name="email" type="text">
-    
+    <form action="">
+        <table>
+            <tr>
+                <td colspan="4" id="title">Sở thích của bạn</td>
+            </tr>
+            <tr>
+                <td class="right">Họ và tên</td>
+                <td colspan="3" size="25"><input type="text"></td>
+            </tr>
+            <tr>
+                <td class="right">Email</td>
+                <td colspan="3" size="17"><input type="text"></td>
+            </tr>
+            <tr>
+                <td class="right">Sở thích</td>
+                <td class="orange"><input type="checkbox">Thể thao</td>
+                <td class="orange"><input type="checkbox">Âm nhạc</td>
+                <td class="orange"><input type="checkbox">Đọc sách</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td class="orange"><input type="checkbox">Lướt web</td>
+                <td class="orange"><input type="checkbox">Chơi game</td>
+                <td class="orange"><input type="checkbox">Điện Ảnh</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td class="orange"><input type="checkbox">Du lịch</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td colspan="3"><button>Gửi thông tin</button><button>Nhập lại</button></td>
+            </tr>
+        </table>
+    </form>
 </body>
 </html>

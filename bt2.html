@@ -4,25 +4,69 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        #title{
+            text-align: left;
+            color: blue;
+            background-color: aqua;
+
+        }
+        .left{
+            text-align: left;
+            color: blue;
+
+        }
+        table{
+            background-color: rgb(202, 202, 62);
+            width: 400px;
+    height: 200px;
+        }
+   
+    </style>
 </head>
 <body>
- <form method="get" action="bt2.html"></form>
- Họ Và Tên   
- <br><input name="Họ Và Tên" type="text">
- <br><br>
- Email:
- <br><input name="Email" type="text">
- <br><br>
- Số Điện Thoại:
- <br><input name="Số Điện Thoại" type="number">
- <br><br>
- Giới Tính:
- <br>
- <input name="Giới Tính" type="radio">Nam
- <input name="Giới Tính" type="radio">Nữ
- <br><br>
- <input name="Đăng kí" type="submit" value="Đăng kí">
- 
- 
+    <form action=""><table><tr>
+        <td colspan="2" id="title">ĐĂNG KÝ HỌC VIÊN</td>
+    </tr>
+    <tr>
+        <td class="left">Họ và tên</td>
+        <td><input type="text"></td>
+    </tr>
+    <tr>
+        <td class="left">Ngày sinh</td>
+        <td><input type="text"></td>
+    </tr>
+    <tr>
+        <td class="left">Giới tính</td>
+        <td><input name="gender" type="radio">Nam
+       <input name="gender" type="radio">Nữ</td>
+    </tr>
+    <tr>
+        <td class="left">Địa chỉ</td>
+        <td><textarea name="" id="" cols="30" rows="10"></textarea></td>
+    </tr>
+    <tr>
+        <td class="left">Lớp</td>
+        <td><select name="" id="">
+        <option value="">Chọn lớp</option>
+        <option value="">Lớp 1</option>
+        <option value="">Lớp 2</option>
+    </select></td>
+    </tr>
+    <tr>
+        <td class="left">Email</td>
+        <td><input type="email"></td>
+    </tr>
+    <tr>
+        <td class="left">Điện Thoại</td>
+        <td><input type="text"></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td><button>Đăng ký</button>
+            <button>Nhập lại</button>
+        </td>
+    </tr>
+    </table></form> 
 </body>
 </html>
